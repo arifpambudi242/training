@@ -3,8 +3,8 @@
 return [
     'class' => 'yii\db\Connection',
     'driverName' => 'sqlsrv',
-    'dsn' => 'sqlsrv:Server=DESKTOP-L2ETADA;Database=db_training',
-    'username' => 'root',
+    'dsn' => 'sqlsrv:Server=localhost;Database=db_training',
+    'username' => 'sa',
     'password' => '1234',
     'charset' => 'utf8'
 
